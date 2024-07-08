@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+    --cor-primaria:  rgb(223, 214, 214);
+    --cor-secundaria: #0A3871;
+    --cor-terceiaria: #FFFFFF;
+
+    --fonte-primaria: 'Inter';
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    margin: auto;
+    font-family: 'Inter';
+}
+
+.container__cabecalho {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    float: left;
+}
+
+.container__cabecalho img {
+    margin: 2.5rem;
+    width: 7.5rem;
+    height: 3rem;
+}
+
+.container__area_criptografia {
+    display: block-inline;
+    width: 800px;
+    float:left;
+    color:var(--cor-secundaria);
+}
+
+.container__area_criptografia .areaEncriptografar {
+    width: 50%;
+    margin-left: 10%;
+}
+.container__area_criptografia .areaEncriptografar textarea {
+    background-color: var(--cor-primaria);
+    font-size: 32px;
+    border-style: none;
+
+    width: 680px;
+    height: 288px;
+
+    margin-left: none;
+    display: block-inline;
+    text-align: start;
+    color:var(--cor-secundaria);
+    resize: none;
+}
+
+.container__area_criptografia .areaEncriptografar textarea:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.container__area_criptografia .mensagemAviso {
+    margin-left: 10%;
+    width: 60%;
+
+    margin-top: 200px;
+
+}
+
+.container__area_criptografia .mensagemAviso img {
+    width: 20px;
+}
+
+.container__area_criptografia .mensagemAviso strong {
+    text-decoration: none;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+.botoesEncDesc {
+    margin-left: 10%;
+}
+
+button {
+    width: 336px;
+    height: 67px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 1.5rem;
+    color: var(--cor-terceiaria);
+    background-color: var(--cor-secundaria);
+
+    margin-bottom: 1.5rem;
+    justify-content: space-between 24px;
+    cursor: pointer;
+    transition: 1s background;
+
+}
+
+.botao1 {
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+    color: var(--cor-terceiaria);
+    transition: 1s background;
+    cursor: pointer;
+
+}
+
+.botao1:hover {
+    color:  var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    border-color: var(--cor-primaria);
+}
+
+.botao2 {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terceiaria);
+    border-color:var(--cor-terceiaria);
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.botao2:hover {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    border-color: var(--cor-primaria);
+}
+
+.container__area__descriptografar {
+    display: block-inline;
+    width: 400px;
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3.5%;
+    color:var(--cor-secundaria);
+}
+
+.areaDescriptografar {
+    background-color: var(--cor-terceiaria);
+    border-radius: 10px;
+    height: 945px;
+    width: 400px;
+}
+
+.areaDescriptografar img {
+
+    width: 80%;
+    margin-left: 30px;
+    padding-top: 10%;
+    padding-left: 10%;
+
+}
+.areaDescriptografar h2 {
+    font-size: 12px;
+    text-align: center;
+}
+
+.areaDescriptografar p {
+    text-align: center;
+}
+
+.container__area__descriptografar .areaDescriptografar textarea {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+
+    border-style: none;
+    width: 95%;
+    height: 350px;
+    margin-left: 2%;
+    display: block-inline;
+    color:var(--cor-secundaria);
+    resize: none;
+}
+
+.container__area__descriptografar .areaDescriptografar textarea:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.botaoCopiar {
+    margin-left: 10%;
+    margin-top: -25%;
+
+}
+
+.botaoCopiar button {
+    border-radius: 15px;
+    width: 336px;
+    height: 67px;
+    font-size: 16px;
+
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.botaoCop {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terceiaria);
+}
+
+.botaoCop:hover {
+    color:  var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+}
